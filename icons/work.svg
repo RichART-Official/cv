@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icons/work@3x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-232.000000, -22.000000)" stroke="#000C44">
+            <g id="Icons/work" transform="translate(233.000000, 23.000000)">
+                <g id="Group-2">
+                    <rect id="Rectangle" x="0" y="3" width="14" height="9" rx="1"></rect>
+                    <path d="M5,3 L5,1 C5,0.44771525 5.44771525,1.01453063e-16 6,0 L8,0 C8.55228475,-1.01453063e-16 9,0.44771525 9,1 L9,3 L9,3" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,227 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css';
+@import 'https://fonts.googleapis.com/css?family=Karla';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@page {
+  margin: 5mm 0;
+  size: 210mm 297mm
+  -relaxed-page-width: 210mm 297mm;
+  -relaxed-page-height: 297mm;
+}
+
+body {
+  display: flex;
+  font-size: 10pt;
+  font-family: helvetica, sans-serif;
+  font-weight: normal;
+  color: #131313;
+
+}
+aside {
+  width: 30%;
+  position: relative;
+  border-right: solid black 0.5pt;
+  padding: 1.33em 1.33em 1.33em 1.66em;
+}
+
+@media screen {
+  aside {
+    background: #F8F9F8;
+    
+  }
+  body {
+    font-size: 1.05em;
+  }
+}
+
+@media screen and (max-width: 40rem){
+  body {
+    font-size: 1.05em;
+    flex-direction: column;
+  }
+  aside {
+    width: initial;
+    padding: 1em;
+  }
+  main {
+    width: 90% !important;
+  }
+}
+
+header {
+  margin: 0.66em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Karla', 'Avenir Next', sans-serif;
+  font-weight: 700;
+  line-height: 0.9em;
+}
+
+h1, h2 {
+  margin: 0.22em 0;
+}
+
+h3, h4, h5 {
+  margin: 0.11em 0;
+  line-height: 1em;
+}
+
+ul {
+  margin: 0.33em 0em;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#name {
+  width: 66%;
+}
+
+main {
+  width: 66%;
+  padding: 1em 2em;
+  padding-left: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 1em;
+  margin-right: 1em;
+  opacity: 0.75;
+}
+
+.cv-section {
+  margin: 1em 0;
+}
+
+.section-title {
+  display: flex;
+  align-items: flex-start;
+  margin: 0.33em 0 0.44em 0;
+}
+
+.section-title h2 {
+  margin: 0;
+}
+
+.section-content {
+  margin-left: 5em;
+}
+
+.icon-wrapper {
+  width: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  margin: 0.66em 0;
+}
+.period {
+  font-size: 0.75em;
+  font-style: italic;
+  opacity: 0.66;
+  margin-top: 0.1em;
+}
+
+.introduction {
+  line-height: 1.33em;
+  margin: 1em 0;
+  font-size: 1.11em;
+}
+
+.icon {
+    height: 1em;
+}
+
+.subtitle {
+  margin-top: 0.1em;
+}
+
+.profile-pic {
+  width: 3em;
+  height: 3em;
+  border-radius: 100em;
+  overflow: hidden;
+  border: 1.33pt solid rgba(0,0,0,0.1);
+}
+
+.profile-pic-content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caption {
+  font-size: 0.75em;
+  opacity: 0.80;
+}
+
+.caption-big {
+  font-size: 0.75em;
+  opacity: 0.80;
+}
+
+.captionWrapper {
+  display: flex;
+  margin: 0.44em;
+}
+
+.arrow {
+  margin-right: 0.66em;
+}
+
+.project-item {
+  display: block;
+  margin: 0.11em;
+  align-items: baseline;
+}
+
+.project-item > * {
+  display: inline-block;
+}
+
+.project-item::first-child {
+  margin-right: 1em;
+}
+
+.icon-li {
+  display: flex;
+  align-items: center;
+  margin: 0.33em 0;
+}
+
+.icon-li > .icon {
+  margin-right: 0.66em;
+}
+
+.block {
+  padding: 0.33em 0;
+}
+
+.ability-item {
+  margin: 1em 0;
+  font-size: 0.88em;
+  margin-right: 0.3em;
+}
+
+.ability-name {
+  background: #EEEC58;
+  border: solid #EEEC58 0.5pt;
+  display: inline-block;
+  padding: 0.1em 0.45em;
+  margin-right: 0.33em
+}
+
+.transparent {
+  opacity: 0.33;
+}

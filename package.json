@@ -1,0 +1,9 @@
+{
+  "name": "cv-generator",
+  "version": "1.0.0",
+  "description": "Generates cv",
+  "main": "index.js",
+  "author": "Richard van 't Hof",
+  "license": "MIT",
+  "private": false
+}

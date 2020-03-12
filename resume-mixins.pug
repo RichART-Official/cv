@@ -1,0 +1,37 @@
+mixin item(title, organisation, location, country, from_date, to_date, comments)
+    .item
+        h3= title
+        p.subtitle= organisation
+        p.caption= comments
+        p.period= `${location} ‧ ${from_date} - ${to_date || 'now'}` 
+        
+
+mixin project(title, medium, time, year, collaborators, client, url, comments)
+    a.project-item()
+        p= `${title} ‧ `
+        p.transparent= ` ${year && year + '; '} ${medium && medium + '; '} ${time && time + 'min.'} ${client && 'Client: ' + client + '; '} ${collaborators && 'Collaboration with: ' + collaborators + '; '} ${comments && comments}`
+
+mixin sectionTitle(title, icon)
+    div.section-title
+        figure.icon-wrapper
+            img.icon(src=icon)
+        h2= title
+
+mixin ability(name, description, tools)
+    div.ability-item
+        p
+            span.ability-name=name
+            span=description
+        p.caption= `${tools && 'Tools: ' + tools}`
+
+mixin caption(text)
+    div.captionWrapper
+        img.arrow(src='icons/arrow.svg')
+        p.caption= text
+
+mixin icon-li(text, icon, url)
+    li.icon-li
+        img.icon(src=icon)
+        p= text
+
+

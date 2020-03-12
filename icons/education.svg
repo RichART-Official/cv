@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icons/Education@3x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-230.000000, -172.000000)">
+            <g id="Icons/Education" transform="translate(230.000000, 168.000000)">
+                <g id="Group-3" transform="translate(0.000000, -1.000000)">
+                    <path d="M15.9995051,11.6832604 L16,16.3711429 C16,16.7725588 15.7599673,17.1350699 15.3904068,17.2917854 L10.3904068,19.4120811 C10.1408896,19.5178912 9.85911044,19.5178912 9.60959315,19.4120811 L4.60959315,17.2917854 C4.24003269,17.1350699 4,16.7725588 4,16.3711429 L3.99950506,11.6832604 L10,14.273362 L15.9995051,11.6832604 Z" id="Combined-Shape" stroke="#000C44"></path>
+                    <polygon id="Rectangle-Copy" stroke="#000C44" stroke-linejoin="bevel" transform="translate(10.000000, 10.000000) rotate(45.000000) translate(-10.000000, -10.000000) " points="7.13215903 7.13215903 17 3 13.0217232 13.0217232 3 17"></polygon>
+                    <polyline id="Path-2" fill="#000C44" points="20 10 20 15 19.5 14.3199158 19 15 19 10"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
